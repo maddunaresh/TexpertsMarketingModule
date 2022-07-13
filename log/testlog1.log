@@ -1,0 +1,22 @@
+2022-07-10 12:51:24,878 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6920b0bc: 0 ms
+2022-07-10 12:51:24,918 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2abe9173: 36 ms
+2022-07-10 12:51:24,978 [main] ERROR org.testng.reporters.jq.Main - C:\Workspace\TexpertsMarketingModule\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Workspace\TexpertsMarketingModule\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:224)
+	at java.base/java.nio.file.Files.copy(Files.java:3144)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-07-10 12:51:24,984 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3bb87d36: 64 ms
+2022-07-10 12:51:24,985 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1b495d4: 1 ms
+2022-07-10 12:51:24,997 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6e43ddd6: 12 ms
+2022-07-10 12:51:25,010 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4f0cab0a: 12 ms
+2022-07-10 12:51:25,018 [main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7d7cac8: 7 ms
